@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* Add any custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 70%;
+            height: 150px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        li{
+            list-style: none;
+        }
+        li a img{
+            width: 50%;
+            height: 50%;
+            display: block;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h1>Welcome to Our Website</h1>
+            <p>Explore the world of technology with us!</p>
+            <a href="https://example.com/technology"><img src="https://dailynews.co.tz/wp-content/uploads/2023/08/%C2%A9-iStock-metamorworks-1-696x392-1.jpg" alt="Technology Image"></a>
+        </section>
+        
+        <section id="gallery">
+            <h2>Nature Gallery</h2>
+            <div class="gallery">
+                <a href="https://example.com/nature1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOYt8vOnVqGcWuZrbhYSuIcnJ8KnMSsF5aQQ5j5Akyu8dv1Zs&s" alt="Nature Image 1"></a>
+                <a href="https://example.com/nature2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5pjUtRDEwWGptkyWzlF3_4e_s-cDvukTe-vkoqLD7xarFRg&s" alt="Nature Image 2"></a>
+                <a href="https://example.com/nature3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbktrdGAB6yGQfkY5I5CNa_L3AJzIGJsJZl-G3t6iPM4dSyoIg&s" alt="Nature Image 3"></a>
+            </div>
+        </section>
+        
+        <section id="menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="https://example.com/food1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjuvCv3gI6KZr3XA-tHavuVthwhX0G3eMKcUzRu_j5Kqnf3CH3&s" alt="Rice"> Rice </a></li><br><br>
+                <li><a href="https://example.com/food2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSotfqsjJ8q_j7IKDfDljIYhsV8FInuD1sAUhKoKf20b2z1lAWx&s" alt="Donut"> Donut</a></li> <br><br>
+                <li><a href="https://example.com/food3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBOL6cpyxhQcu7vsGlTInQDmXhkuN0pjoRcrfPjqF32Laau4L&s" alt="Food Image 3"> Fish Stew</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
